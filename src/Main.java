@@ -1,37 +1,98 @@
+import java.math.BigDecimal;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // Assignment, Arithmetic, Comparison, Logical
 
-        // Assignment Operator
-        int a = 45;
+        // conditions, loop
 
-        // Arithmetics operators +, -, *, /, %, ++, --
+        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Please insert first number =");
+//        int a = scanner.nextInt();
+//        System.out.println();
+//        System.out.print("Please insert second number =");
+//        int b = scanner.nextInt();
 
-        int myInt = 2;
+//        int c = 10;
+//        if (c < 12) {
+//            System.out.println("شما مجاز به انتخاب 12 واحد هستید");
+//        }
+//        if (c < 16) {
+//            System.out.println("شما مجاز به انتخاب 16 واحد هستید");
+//        }
+//
+//        if (a < b) {
+//            System.out.print("a is smaller than b");
+//        } else if (b < a) {
+//            System.out.print("a is bigger than b");
+//        } else if (a == b) {
+//            System.out.print("a is equals than b");
+//        } else {
+//            System.out.print("!!!!!!1");
+//        }
 
-//        System.out.println(myInt++);
-//        System.out.println(++myInt);
+//        int c = scanner.nextInt();
+//
+//        switch (c) {
+//            case 1:
+//                System.out.println("one");
+//                break;
+//            case 2:
+//                System.out.println("two");
+//                break;
+//            case 3:
+//                System.out.println("Three");
+//                break;
+//            case 4:
+//                System.out.println("Four");
+//                break;
+//            case 5:
+//                System.out.println("Five");
+//                break;
+//            default:
+//                System.out.println("Unknown!!!");
+//        }
+//
+//        boolean a = (4 < 3) ? true : false;
 
-        // Comparison <, <=, >, >=, ==, !=
-        int i = 3, j =4, k = 6, w = 7;
-        boolean myCompare = i < i;
+        // loop while, dowhile, for
+//        int sum = 0;
+//        while (sum < 100) {
+//            System.out.println("please enter another number: ");
+//            System.out.println("sum= " + sum);
+//            sum +=scanner.nextInt();
+//        }
 
-        int myInt2 = 4;
+//        int sum = 0;
+//        do {
+//            System.out.println("please enter another number: ");
+//            System.out.println("sum= " + sum);
+//            sum += scanner.nextInt();
+//        } while (sum < 100);
 
-        myInt2 += 2; // myInt2 = myInt2 + 2;
+        // break and continue
+        // for string
 
-        Integer integer = 3;
-        int z = 4;
+//        BigDecimal bigDecimal = new BigDecimal("594954959495495959459495994594594959459459594959594594594959454");
+//        BigDecimal bigDecimal2 = new BigDecimal("2");
+//        bigDecimal = bigDecimal.add(bigDecimal2);
+//
+//        String s1 = "ali";
+//        String s2 = "ahmadi";
+//        if (s1.equals(s2)) {
+//
+//        }
+//
+//        System.out.println(bigDecimal);
+//
+//        scanner.nextLine();
+//        for (int i = 0; i < 10; i++) {
+//            if (i == 5)
+//                continue;
+//            System.out.println("i= " + i);
+//        }
 
 
-        Math.max(i, j);
 
-
-//        System.out.println(i < i);
-
-        // logical operators &&, ||, !
-
-
-        System.out.println((int) (Math.random() * 100 + 10));
     }
 }
